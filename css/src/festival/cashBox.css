@@ -1,3 +1,4 @@
+/*winter_speccial cashBox.css*/
 #cashBox{width: 100%;height: auto;}
 
 .big_area{padding: 60px 60px;box-sizing: border-box;border-bottom: 5px solid #4c81a8;}
@@ -9,4 +10,4 @@
   .cash_text>ul>li:first-child{margin-bottom: 30px;}
  
   .little_tit{width: 165px;float: left;}
-  .cash{float: right;}
+  .cash{float: left;}

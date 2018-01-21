@@ -1,3 +1,4 @@
+/*winter_speccial contentBox.css*/
 #contentBox{width: 100%;height: auto;}
 #contentBox>.fish_box{display: block;width: 55%;height: 65.625vw;background-image: url(../../../img/fes_fish_bg.png);background-repeat: no-repeat;
   -webkit-background-size: contain;

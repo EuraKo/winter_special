@@ -1,3 +1,4 @@
+// winter_speccial gnbBox.js
 (function($){
   var gnbBox = $('#gnbBox');
   var gnbBtn = gnbBox.children('button');

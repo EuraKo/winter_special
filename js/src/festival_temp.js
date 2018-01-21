@@ -1,4 +1,4 @@
-// main_temp.js
+// winter_speccial festival_temp.js
 (function($){
 var baseUrl = './src/';
 var myHtml = [

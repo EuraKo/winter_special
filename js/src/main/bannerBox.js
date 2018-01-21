@@ -1,4 +1,4 @@
-//winter bannerBox.js
+//winter_speccial bannerBox.js
 
 (function($){
 var banner=$('.banner_area');

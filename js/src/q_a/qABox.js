@@ -1,3 +1,4 @@
+// winter_speccial qABox.js
 (function($){
 var qABox = $('#qABox');
 var qAdl=qABox.children('dl');
