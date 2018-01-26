@@ -9,18 +9,33 @@ var qAdd=qAdl.children('dd');
 qAdt.on('click',function(e){
   e.preventDefault();
 
-  $(this).next().slideToggle();
-  var iClass=qAi.attr('class');
-  console.log(iClass);
+var _this = $(this);
+  
+   
+  // _this.next().slideToggle();
 
-qAi.attr({"class":"fa fa-caret-up"});
+  // var iClass=qAi.attr('class');
+  // console.log(iClass);
+  // qAi.attr({"class":"fa fa-caret-up"});
+  
 
 
-// if(qAi.hasClass("fa-caret-up")){
-//   qAi.attr({class:"fa fa-caret-down"});
-// }
 
+_this.parent().siblings('dl').children('dd').slideUp();
+_this.parent().siblings('dl').find('i').attr({"class":"fa fa-caret-down"});
+var ddView = _this.next('dd');
+var ddBlock = ddView.css('display') == 'block';
+var iconView = _this.find('i');
 
+  if(!ddBlock){
+  //   // 보이지 않으면 -> 나타나기!
+    _this.next('dd').stop().slideDown();
+    iconView.attr({'class':'fa fa-caret-up'});
+  }else{
+  //   //보이면 -> 숨기고
+    _this.next('dd').stop().slideUp();
+    _this.find('i').attr({"class":"fa fa-caret-down"});
+  }
 
 });
 

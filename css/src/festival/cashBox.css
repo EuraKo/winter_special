@@ -1,13 +1,11 @@
 /*winter_speccial cashBox.css*/
-#cashBox{width: 100%;height: auto;}
+#cashBox{width: 100%;height: auto;margin: 0 auto;}
 
-.big_area{padding: 60px 60px;box-sizing: border-box;border-bottom: 5px solid #4c81a8;}
-.big_area>div{float: left;}
-.cash_title{width: 10%;height: 45px;font-size: 25px;text-align: right;font-weight: bold;}
-
-.cash_text{width: 90%;font-size: 21px;text-align:right;}
- .cash_text>ul{width: 100%;height: 100%;}
-  .cash_text>ul>li:first-child{margin-bottom: 30px;}
- 
-  .little_tit{width: 165px;float: left;}
-  .cash{float: left;}
+#cashBox dl{width: 100%;height: 210px;padding: 60px 0;box-sizing: border-box;border-bottom: 5px solid #4c81a8;}
+#cashBox dt{width: 20%;height: 100%;float: left;font-size: 25px;font-weight: bold;
+text-align: right;
+}
+#cashBox dd{width: 80%;height: 50%;float: left;font-size: 21px;line-height: 30px;}
+#cashBox span{width: 40%;display: block;margin-left: 50px;float: left;text-align: right;
+}
+#cashBox span:first-child{width: 30%;}
