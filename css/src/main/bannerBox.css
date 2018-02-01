@@ -24,11 +24,11 @@ background-size: cover;}
 
 .banner_area>ul>li.banner_1{background-image: url(../../../img/banner_01.jpg);
 }
-.banner_area>ul>li.banner_2{background-image: url(../../../img/image2.jpg);
+.banner_area>ul>li.banner_2{background-image: url(../../../img/banner_02.png);
 }
-.banner_area>ul>li.banner_3{background-image: url(../../../img/image4.jpg);
+.banner_area>ul>li.banner_3{background-image: url(../../../img/banner_03.png);
 }
-.banner_area>ul>li.banner_4{background-image: url(../../../img/image8.jpg);
+.banner_area>ul>li.banner_4{background-image: url(../../../img/banner_04.png);
 }
 
 /*indicator--------------------------*/
@@ -39,7 +39,7 @@ line-height: 30px;
 }
 
 .indicator>ul>li:hover{font-size: 20px;}
-
+.indicator a{display: block;width: 100%;height: 100%;}
 
 
 

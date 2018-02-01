@@ -1,2 +1,4 @@
 /*winter_speccial periodBox.css*/
-#periodBox{width: 100%;height: auto;padding: 60px;box-sizing:border-box;font-size: 39px;letter-spacing: 5px;text-align: center;}
+#periodBox{width: 100%;height: 510px;padding: 180px;box-sizing:border-box;font-size: 39px;letter-spacing: 5px;text-align: center;}
+p:first-of-type{font-size: 50px;font-weight: bold;margin-bottom: 30px;letter-spacing: 18px;}
+p:last-of-type{font-size: 30px}

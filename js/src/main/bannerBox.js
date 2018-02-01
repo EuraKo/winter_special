@@ -34,23 +34,16 @@ rightBtn.on('click',function(e){
 // indicator
 var indi=$('.indicator');
 
-var indiUl=indi.children('ul');
-var indiLi=indi.children('li');
-var indiLi_01=indi.children('li').eq(0);
-var indiLi_02=indi.children('li').eq(1);
-var indiLi_03=indi.children('li').eq(2);
-var indiLi_04=indi.children('li').eq(3);
+// var indiUl=indi.children('ul');
+var indiLi=indi.find('li');
 
-var bannerLi_01=bannerUl.children('li').eq(0);
-var bannerLi_02=bannerUl.children('li').eq(1);
-var bannerLi_03=bannerUl.children('li').eq(2);
-var bannerLi_04=bannerUl.children('li').eq(3);
 
 
 indiLi.on('click',function(e){
   e.preventDefault();
-  var myBanner=$(this).index();
-  console.log(myBanner);
+  var indiI=$(this).index();
+  // console.log(indiI);
+  
 })
 
 })(this.jQuery);

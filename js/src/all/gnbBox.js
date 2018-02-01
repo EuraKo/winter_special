@@ -8,7 +8,6 @@
     e.preventDefault();
 gnbUl.fadeToggle();  
   var active=gnbBtn.toggleClass('active');
-  console.log(iClass);
 
 
 });

@@ -1,29 +1,33 @@
 /*winter_speccial galleryBox.css*/
 
-#galleryBox{width: 960px;height: auto;padding: 30px 45px;box-sizing: border-box;}
-#galleryBox>a{display: block;float: left;margin-right: 20px;}
-#galleryBox>a.last{margin-right: 0;}
+#galleryBox{width: 960px;height: auto;padding: 90px 70px;box-sizing: border-box;}
 
-.content_area{width: 200px;height: 270px;margin-bottom: 30px;}
-.content_area>.pic{width: 100%;height: 65%;opacity: 0.5;
- background-repeat: no-repeat;background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#galleryBox .picture{width: 45%;height: 420px;float: right;
+  margin-bottom: 60px;
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
+-ms-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+background-position: center;
+transition: all 800ms ease; background-repeat: no-repeat;
 }
-.content_area>.pic:hover{opacity: 1;}
-.content_area>.img_01{background-image: url(../../../img/gallery_01.png);
+#galleryBox .picture:first-of-type{height: 210px;float: left;background-image: url(../../../img/gallery_01.jpg);
 }
-.content_area>.img_02{background-image: url(../../../img/gallery_02.png);
+#galleryBox .picture:nth-of-type(2){background-image: url(../../../img/gallery_02.jpg);
 }
-.content_area>.img_03{background-image: url(../../../img/gallery_03.png);
+#galleryBox .picture:nth-of-type(3){float: left;background-image: url(../../../img/gallery_03.jpg);
 }
-.content_area>.img_04{background-image: url(../../../img/gallery_04.png);
+#galleryBox .picture:nth-of-type(4){background-image: url(../../../img/gallery_04.jpg);
 }
+#galleryBox .picture:nth-of-type(5){background-image: url(../../../img/gallery_05.jpg);
+float: left;}
+#galleryBox .picture:last-of-type{height: 210px;background-image: url(../../../img/gallery_06.jpg);}
 
-.content_area>.text{height: 35%;background-color: #eee;color: #333;padding: 20px 10px;box-sizing: border-box;}
-.content_area>.text:hover{background-color: #fff;}
-.content_area>.text>.text_title{font-size: 20px;font-weight: bold;margin-bottom: 10px;}
-.content_area>.text>.text_name{font-size: 12px;}
+#galleryBox .picture>a{display: block;width: 100%;height: 100%;}
+#galleryBox .picture:hover{
+  -webkit-background-size: 150%;
+  -moz-background-size: 150%;
+  -ms-background-size: 150%;
+  -o-background-size: 150%;
+background-size: 150%; }

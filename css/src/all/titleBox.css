@@ -1,6 +1,7 @@
 /*winter_special titleBox.css*/
 .title{width: 100%;height: auto;padding: 30px;box-sizing: border-box;text-align: center;color: #fff;
 font-size: 30px;font-family: aPadoSori;letter-spacing: 30px;
-background-image: url(../../../img/title_pattern.png);
-background-repeat: repeat-x;background-position: center;
-    }s
+background-color: #077ef2;
+background-image: url(../../../img/title.png), url(../../../img/title.png);
+background-repeat: no-repeat, no-repeat;background-position: left, right;
+    }

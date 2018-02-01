@@ -1,5 +1,5 @@
 /*winter_speccial fnbBox.css*/
-#fnbBox{width: 100%;height: auto;background-color: #006086;}
+#fnbBox{width: 100%;height: auto;background-color: #077ef2;}
 #fnbBox>ul{width: 100%;height: 100%;padding: 30px 45px;box-sizing: border-box;}
 #fnbBox>ul>li{width: calc(100% / 3);height: 120px;float: left;text-align: center;}
 #fnbBox>ul>li:last-child{float: right;}
@@ -15,9 +15,9 @@ background-size: cover;
 background-position: center center;}
 
 
-#fnbBox>ul>li .document{background-image: url(../../../img/document_icon.png);}
-#fnbBox>ul>li .privacy{background-image: url(../../../img/privacy_icon.png);}
-#fnbBox>ul>li .phone{background-image: url(../../../img/phone_icon.png);}
+#fnbBox>ul>li .document{background-image: url(../../../img/ic-assignment-48px.svg);}
+#fnbBox>ul>li .privacy{background-image: url(../../../img/ic-https-48px.svg);}
+#fnbBox>ul>li .phone{background-image: url(../../../img/ic-phone-in-talk-48px.svg);}
 #fnbBox>ul>li>a{color: #fff;font-size: 20px;}
 
 #fnbBox>ul>li>a{display: block; width: 100%; height: 100%;}

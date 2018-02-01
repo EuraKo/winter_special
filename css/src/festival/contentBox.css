@@ -1,19 +1,25 @@
 /*winter_speccial contentBox.css*/
-#contentBox{width: 100%;height: auto;}
-#contentBox>.fish_box{display: block;width: 35%;height: 65.625vw;background-image: url(../../../img/fes_fish_bg.png);background-repeat: no-repeat;
+#contentBox{width: 100%;height: 65.625vw;}
+
+/*물고기 바탕화면 .fish_box*/
+#contentBox>.fish_box{display: block;width: 35%;height: 100%;background-color: #077ef2;float: left;position: relative;overflow: hidden;
+  
+
+}
+/*낚시줄*/
+.fish_box:after{display: block;content:" ";width: 10px;height: 230px;background-color: #fff;position: absolute;top: 0;left: 50%;margin-left: -5px;z-index: 200;}
+/*배경줄*/
+.line_bg{width: 250%;height: 150%;background-image: url(../../../img/fes_line.png);background-repeat: repeat;transform: rotate(45deg);margin-left: -100%;margin-top: -50%;}
+
+/*물고기 그림*/
+#contentBox .fish{display: block;width: 55%;height: 50%;
+position: relative;z-index: 300;
+  background-image: url(../../../img/fes_fish.png);background-repeat: no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -ms-background-size: contain;
   -o-background-size: contain;
-background-size: contain;background-position: left top;float: left;
-
-}
-#contentBox .fish{display: block;width: 55%;height: 50%;background-image: url(../../../img/fes_fish_pic.png);background-repeat: no-repeat;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -ms-background-size: auto;
-  -o-background-size: auto;
-background-size: auto;background-position: center top;float: left;margin-left: 18.5%;margin-top: 45%;
+background-size: contain;background-position: center top;float: left;margin-left: 22%;margin-top: 50%;
 transform-origin: top;
 /*animation-name:fish;
 animation-duration: 2s;
@@ -22,9 +28,8 @@ animation-timing-function: linear;
 animation-iteration-count: infinite;
 */
 animation:fish 2s normal ease-in-out infinite;
+
 }
-
-
 
 @keyframes fish {
   0% {transform:rotate(0);}
@@ -32,6 +37,26 @@ animation:fish 2s normal ease-in-out infinite;
   75% {transform:rotate(-25deg);}
   100% {transform:rotateX(0);}
 }
-#contentBox span{font-size: 30px;margin-bottom: 30px;float: left;}
-.bold{font-weight: bold;}
-#contentBox>p{width: 45%;height: 65.625vw;float: left;padding: 60px 30px;box-sizing: border-box;line-height: 30px;  font-size: 18px;}
+
+/* text----------------------------*/
+.hello_area{width: 65%;height: 100%;padding: 0 100px;box-sizing: border-box;float: left;}
+.hello_area>h3{font-size: 50px;font-family: aPadoSori;color: #077ef2;padding: 60px 0;box-sizing: border-box;position: relative;}
+
+h3.bar_top:after{margin-top:60px;left: 0;margin-left: 0; }
+.hello_area>p{padding: 30px 0;box-sizing: border-box;font-size: 25px;line-height: 300%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

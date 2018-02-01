@@ -1,18 +1,18 @@
 /*winter_speccial wayBox.css*/
-#wayBox{width: 100%;height: auto;padding: 30px 45px;box-sizing: border-box;}
+#wayBox{width: 100%;height: auto;padding: 120px 0;box-sizing: border-box;}
 
-.way_img{width: 60%;height: 480px;float: left;
+.way_img{width: 50%;height: 50vw/*480px*/;min-height: 480px;;float: left;background-color: #eee;
   background-image: url(../../../img/jido.png);
-  background-position: center;
-  -webkit-background-size: auto 100% ;
-  -moz-background-size: auto 100% ;
-  -ms-background-size: auto 100% ;
-  -o-background-size: auto 100% ;
-  background-size: auto 100% ;
+  background-position:30px center ;
+  -webkit-background-size: 100% ;
+  -moz-background-size: 100% ;
+  -ms-background-size: 100% ;
+  -o-background-size: 100% ;
+  background-size: 100% ;
   background-repeat: no-repeat;
 }
 
-.way_text{width: 40%;height: 480px;float: left;padding: 45px 0;box-sizing: border-box;}
+.way_text{width: 45%;height: 480px;float: right;padding: 45px 0;box-sizing: border-box;}
 .way_text>ul{margin-bottom: 45px;}
 .way_text>ul>li{float: left;font-size: 18px;}
 .way_text>ul>li>span:first-child{font-weight: bold;}
