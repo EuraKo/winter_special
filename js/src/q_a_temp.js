@@ -7,6 +7,7 @@ var myHtml = [
               {make:'qATitleBox', load:'q_a/qATitleBox.html'},
               {make:'qABox'     , load:'q_a/qABox.html'},
               {make:'searchBox'     , load:'q_a/searchBox.html'},
+              {make:'fishBox',load:'all/fishBox.html'},
               {make:'fnbBox'    , load:'all/fnbBox.html'},
               {make:'footBox'   , load:'all/footBox.html'}
 ];

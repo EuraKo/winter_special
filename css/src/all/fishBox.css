@@ -1,0 +1,38 @@
+/*all fihsBox.css*/
+.fishBoxWrap{height: 90px;position: relative;z-index:1500;}
+#fishBox{width: 100%;height: 100%;position: absolute;left: -50%;bottom:0;}
+#fishBox>div{width: calc(100% / 5);height: 100%;float: left;overflowX:hidden; 
+
+  background-image: url(../../../img/cuty_fish.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cuty_fish_1{
+  -webkit-background-size: 30%;
+  -moz-background-size: 30%;
+  -ms-background-size: 30%;
+  -o-background-size: 30%;
+background-size: 30%;
+animation : fish_cuty 8000ms infinite normal linear;
+}
+.cuty_fish_2{
+  animation : fish_cuty 5000ms infinite normal linear;
+}
+.cuty_fish_3{
+-webkit-background-size: 50%;
+-moz-background-size: 50%;
+-ms-background-size: 50%;
+-o-background-size: 50%;
+background-size: 50%;
+animation : fish_cuty 4500ms infinite normal linear;
+}
+
+@keyframes fish_cuty {
+  0%{transform:translateY(0);}
+  25%{ transform:translate(250%, -14rem) rotate(15deg)}
+
+  50%{ transform:translateY(500%, 0) rotate(0deg)}
+
+  75%{transform:translateY(750%, -3rem) rotate(-25deg);}
+  100%{transform: translateX(800%);}
+}

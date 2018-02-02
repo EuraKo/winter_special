@@ -7,6 +7,7 @@ var myHtml = [
               {make:'galleryTitleBox',load:'gallery/galleryTitleBox.html'},
               {make:'galleryBox',load:'gallery/galleryBox.html'},
               {make:'partnerBox',load:'gallery/partnerBox.html'},
+              {make:'fishBox',load:'all/fishBox.html'},
               {make:'fnbBox',load:'all/fnbBox.html'},
               {make:'footBox',load:'all/footBox.html'}
 ];

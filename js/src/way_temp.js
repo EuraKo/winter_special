@@ -6,6 +6,7 @@ var myHtml = [
               {make:'gnbBox',load:'all/gnbBox.html'},
               {make:'wayTitleBox',load:'way/wayTitleBox.html'},
               {make:'cashBox',load:'way/wayBox.html'},
+              {make:'fishBox',load:'all/fishBox.html'},
               {make:'fnbBox',load:'all/fnbBox.html'},
               {make:'footBox',load:'all/footBox.html'}
 ];

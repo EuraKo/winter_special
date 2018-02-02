@@ -1,7 +1,7 @@
 /*winter_speccial fnbBox.css*/
 #fnbBox{width: 100%;height: auto;background-color: #077ef2;}
 #fnbBox>ul{width: 100%;height: 100%;padding: 30px 45px;box-sizing: border-box;}
-#fnbBox>ul>li{width: calc(100% / 3);height: 120px;float: left;text-align: center;}
+#fnbBox>ul>li{width: calc(100% / 3);height: 120px;float: left;text-align: center;padding: 0 30px;box-sizing: border-box;}
 #fnbBox>ul>li:last-child{float: right;}
 #fnbBox>ul>li:first-child{;/*margin-right: 15.625vw150/960*100*/}
 

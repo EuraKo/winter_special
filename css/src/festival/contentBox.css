@@ -7,7 +7,7 @@
 
 }
 /*낚시줄*/
-.fish_box:after{display: block;content:" ";width: 10px;height: 230px;background-color: #fff;position: absolute;top: 0;left: 50%;margin-left: -5px;z-index: 200;}
+.fish_box:after{display: block;content:" ";width: 10px;height: 23.958333vw/*230/960*100*/;min-height: 230px;background-color: #fff;position: absolute;top: 0;left: 50%;margin-left: -5px;z-index: 200;}
 /*배경줄*/
 .line_bg{width: 250%;height: 150%;background-image: url(../../../img/fes_line.png);background-repeat: repeat;transform: rotate(45deg);margin-left: -100%;margin-top: -50%;}
 

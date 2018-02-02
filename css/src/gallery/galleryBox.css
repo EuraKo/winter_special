@@ -2,7 +2,7 @@
 
 #galleryBox{width: 960px;height: auto;padding: 90px 70px;box-sizing: border-box;}
 
-#galleryBox .picture{width: 45%;height: 420px;float: right;
+#galleryBox .picture{width: 48%;height: 420px;float: right;
   margin-bottom: 60px;
 -webkit-background-size: 100%;
 -moz-background-size: 100%;
@@ -12,6 +12,7 @@ background-size: 100%;
 background-position: center;
 transition: all 800ms ease; background-repeat: no-repeat;
 }
+
 #galleryBox .picture:first-of-type{height: 210px;float: left;background-image: url(../../../img/gallery_01.jpg);
 }
 #galleryBox .picture:nth-of-type(2){background-image: url(../../../img/gallery_02.jpg);
@@ -31,3 +32,6 @@ float: left;}
   -ms-background-size: 150%;
   -o-background-size: 150%;
 background-size: 150%; }
+
+#galleryBox p{height: auto;padding-top: 10px;box-sizing: border-box;
+}

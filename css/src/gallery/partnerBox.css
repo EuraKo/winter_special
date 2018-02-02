@@ -1,0 +1,21 @@
+/*partnerBox.css*/
+#partnerBox{width: 100%;height: auto;padding-top: 60px;box-sizing: border-box;}
+.partner_area{width: calc(100% / 3);height: 60px;float: left;padding: 10px;box-sizing: border-box;
+background-repeat: no-repeat;background-position: center;margin-bottom: 60px;
+}
+.partner_area:nth-of-type(1){background-image: url(../../../img/partner/img_partner1.jpg);
+}
+.partner_area:nth-of-type(2){background-image: url(../../../img/partner/img_partner2.jpg);
+}
+.partner_area:nth-of-type(3){background-image: url(../../../img/partner/img_partner3.jpg);
+}
+.partner_area:nth-of-type(4){background-image: url(../../../img/partner/img_partner4.jpg);
+}
+.partner_area:nth-of-type(5){background-image: url(../../../img/partner/img_partner5.jpg);
+}
+.partner_area:nth-of-type(6){background-image: url(../../../img/partner/img_partner6.jpg);
+}
+.partner_area a{display: block;width: 100%;height: 100%;}
+
+.partnerBoxWrap{position: relative;}
+#partnerBox.bar_bottom:before{top: 0;}

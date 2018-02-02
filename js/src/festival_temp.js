@@ -8,6 +8,7 @@ var myHtml = [
               {make:'periodBox',load:'festival/periodBox.html'},
               {make:'cashTitleBox',load:'festival/cashTitleBox.html'},
               {make:'cashBox',load:'festival/cashBox.html'},
+              {make:'fishBox',load:'all/fishBox.html'},
               {make:'fnbBox',load:'all/fnbBox.html'},
               {make:'footBox',load:'all/footBox.html'}
 ];
